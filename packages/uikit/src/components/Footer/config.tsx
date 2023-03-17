@@ -80,7 +80,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/towerdefi",
+    href: "https://twitter.com/protocolrice",
   },
   {
     label: "Telegram",
@@ -88,11 +88,11 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/towerfi",
+        href: "https://t.me/rice_pro",
       },
       {
         label: "Announcements",
-        href: "https://t.me/towerfiAnn",
+        href: "https://t.me/rice_channel",
       },
     ],
   },

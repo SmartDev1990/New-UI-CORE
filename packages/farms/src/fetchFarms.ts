@@ -11,7 +11,7 @@ import { getFullDecimalMultiplier } from './getFullDecimalMultiplier'
 
 const evmNativeStableLpMap = {
   [ChainId.CORE]: {
-    address: '0x6b9dB0B7504e04E2a4E5C4B6B22bD84E9a8710fd',
+    address: '0x2b974E81990E74EFc892492CEA6Ab7922FB4D3CC',
     wNative: 'WBNB',
     stable: 'BUSD',
   },
