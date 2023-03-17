@@ -22,11 +22,19 @@ export const coreTokens = {
     'https://www.binance.com/',
   ),
   xRice: new ERC20Token(
-    ChainId.BRISE,
+    ChainId.CORE,
     '0x543F944F3fc1fA5fCF723e74Fa3434224109aDe1',
     18,
     'xRICE',
     'xRice Token',
+    'https://Riceprotocol.org',
+  ),
+  syrup: new ERC20Token(
+    ChainId.CORE,
+    '0x18324D12eFa716190ADA59506ee984c332067102',
+    18,
+    'Syrub',
+    'SyrupBar Token',
     'https://Riceprotocol.org',
   ),
 }

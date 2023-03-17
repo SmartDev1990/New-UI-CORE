@@ -20,10 +20,10 @@ export const CAKE_TESTNET = new ERC20Token(
 
 export const RICE_CORE = new ERC20Token(
   ChainId.CORE,
-  '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  '0xA5d20d84deeEd3850a7538e993E3b2592bf997A0',
   18,
-  'CAKE',
-  'PancakeSwap Token',
+  'RICE',
+  'Rice Token',
   'https://pancakeswap.finance/',
 )
 

@@ -3,11 +3,11 @@ import { multicallAddresses } from '@pancakeswap/multicall'
 export default {
   masterChef: {
     32520: '0x47e6B11Cd7E9664F97E9E570Dd73Cefd934f6E82',
-    1116: '',
+    1116: '0x1d273782b03e197921C4796f7458F38eD4D5BdE5',
   },
   masterChefV1: {
     32520: '0x47B015380CB3Cd8Cd13c65501a9FDBEDC1e2f0D7',
-    1116: '',
+    1116: '0x9716bFCf4ca421Ea73e4c61135D18160a1Fb301f',
   },
   sousChef: {
     32520: '',
@@ -64,7 +64,7 @@ export default {
   },
   cakeVault: {
     32520: '0x8EB8b40361730a6cEC17d4CF8da1e81cD351a0ee',
-    1116: '',
+    1116: '0xaFE21f6b4F575fA82E319adBF567b5e209b53dbA',
   },
   cakeFlexibleSideVault: {
     32520: '0xf0B02B3Eeb1Fe1057691f4267f62CfCeaa8A81D8',

@@ -140,7 +140,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
             {
               step: 2,
               tx: '',
-              chainId: ChainId.BRISE,
+              chainId: ChainId.CORE,
               status: FarmTransactionStatus.PENDING,
             },
           ],
@@ -196,7 +196,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
             },
             {
               step: 2,
-              chainId: ChainId.BRISE,
+              chainId: ChainId.CORE,
               tx: '',
               status: FarmTransactionStatus.PENDING,
             },
@@ -251,7 +251,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
       cakePrice={cakePrice}
       showActiveBooster={boosterState === YieldBoosterState.ACTIVE}
       bCakeMultiplier={bCakeMultiplier}
-      showCrossChainFarmWarning={chainId !== ChainId.CORE && chainId !== ChainId.BRISE}
+      showCrossChainFarmWarning={chainId !== ChainId.BRISE && chainId !== ChainId.CORE}
       crossChainWarningText={crossChainWarningText}
       decimals={18}
       allowance={allowance}

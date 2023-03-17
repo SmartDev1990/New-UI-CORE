@@ -14,7 +14,7 @@ export const DURATION_FACTOR = BigNumber.from('31536000')
 
 export const vaultPoolConfig = {
   [VaultKey.CakeVaultV1]: {
-    name: <Trans>Auto CAKE</Trans>,
+    name: <Trans>Auto RICE</Trans>,
     description: <Trans>Automatic restaking</Trans>,
     autoCompoundFrequency: 5000,
     gasLimit: 380000,
@@ -24,7 +24,7 @@ export const vaultPoolConfig = {
     },
   },
   [VaultKey.CakeVault]: {
-    name: <Trans>Stake TW</Trans>,
+    name: <Trans>Stake RICE</Trans>,
     description: <Trans>Stake, Earn – And more!</Trans>,
     autoCompoundFrequency: 5000,
     gasLimit: 600000,
@@ -34,7 +34,7 @@ export const vaultPoolConfig = {
     },
   },
   [VaultKey.CakeFlexibleSideVault]: {
-    name: <Trans>Flexible TW</Trans>,
+    name: <Trans>Flexible RICE</Trans>,
     description: <Trans>Flexible staking on the side.</Trans>,
     autoCompoundFrequency: 5000,
     gasLimit: 500000,
@@ -62,7 +62,7 @@ export const livePools: Pool.SerializedPoolConfig<SerializedWrappedToken>[] = [
     earningToken: coreTokens.tw,
     contractAddress: {
       32520: '',
-      1116: '0x47e6B11Cd7E9664F97E9E570Dd73Cefd934f6E82',
+      1116: '0x1d273782b03e197921C4796f7458F38eD4D5BdE5',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
@@ -73,25 +73,27 @@ export const livePools: Pool.SerializedPoolConfig<SerializedWrappedToken>[] = [
     stakingToken: coreTokens.tw,
     earningToken: coreTokens.xRice,
     contractAddress: {
-      32520: '0x61fa23D4376CF069E484Bcb3C67d4422320C75e9',
-      1116: '',
+      32520: '',
+      1116: '0xde41617596d0e1e884f95a10f4a5da8939bc1a87',
     },
     poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '0.003',
+    tokenPerBlock: '0.05',
     version: 2,
   },
+  /*
   {
     sousId: 2,
     stakingToken: coreTokens.tw,
     earningToken: coreTokens.wbnb,
     contractAddress: {
-      32520: '0xEA7cfA5515a31063d4d7130828510e8a876ebe1A',
+      32520: '',
       1116: '',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '100',
     version: 2,
   },
+  */
   // {
   // 	sousId: 3,
   // 	stakingToken: serializedTokens.xRice,
@@ -121,19 +123,6 @@ export const livePools: Pool.SerializedPoolConfig<SerializedWrappedToken>[] = [
 ]
 
 // known finished pools
-const finishedPools = [
-  {
-    sousId: 3,
-    stakingToken: coreTokens.tw,
-    earningToken: coreTokens.wbnb,
-    contractAddress: {
-      32520: '0xD83a7da685180e172512617d45e0ce136ED60167',
-      1116: '',
-    },
-    poolCategory: PoolCategory.CORE,
-    tokenPerBlock: '3000',
-    isFinished: true,
-  },
-].map((p) => ({ ...p, isFinished: true }))
+const finishedPools = [].map((p) => ({ ...p, isFinished: true }))
 
 export default [...livePools, ...finishedPools] as Pool.SerializedPoolConfig<SerializedWrappedToken>[]
