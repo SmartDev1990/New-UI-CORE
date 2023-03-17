@@ -32,7 +32,7 @@ export const core: Chain = {
   blockExplorers: {
     default: {
       name: 'CoreScan',
-      url: 'https://scan.coredao.org/',
+      url: 'https://scan.coredao.org',
     },
   },
   multicall: {
