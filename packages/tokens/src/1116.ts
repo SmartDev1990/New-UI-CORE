@@ -37,4 +37,12 @@ export const coreTokens = {
     'SyrupBar Token',
     'https://Riceprotocol.org',
   ),
+  usdt: new ERC20Token(
+    ChainId.CORE,
+    '0x81bCEa03678D1CEF4830942227720D542Aa15817',
+    18,
+    'USDT',
+    'Tether USD',
+    'https://Riceprotocol.org',
+  ),
 }

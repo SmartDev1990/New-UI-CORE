@@ -115,7 +115,7 @@ export const BUSD_TESTNET = new ERC20Token(
   'https://www.paxos.com/busd/',
 )
 
-export const BUSD_CMP = new ERC20Token(
+export const BUSD_BRISE = new ERC20Token(
   ChainId.BRISE,
   '0xd0CE781960c6356A7175988751bfC8d7cd28EA60',
   18,
@@ -124,12 +124,12 @@ export const BUSD_CMP = new ERC20Token(
   'https://www.paxos.com/busd/',
 )
 
-export const BUSD_CMPTESTNET = new ERC20Token(
+export const BUSD_CORE = new ERC20Token(
   ChainId.CORE,
-  '0xB21668048d42d7d6423B070B278F5Af14e1f1600',
+  '0x81bCEa03678D1CEF4830942227720D542Aa15817',
   18,
-  'BUSD',
-  'Tower BUSD',
+  'USDT',
+  'Tether USD',
   'https://www.paxos.com/busd/',
 )
 
@@ -157,8 +157,8 @@ export const BUSD: Record<ChainId, ERC20Token> = {
   [ChainId.GOERLI]: BUSD_GOERLI,
   [ChainId.BSC]: BUSD_BSC,
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
-  [ChainId.BRISE]: BUSD_CMP,
-  [ChainId.CORE]: BUSD_CMPTESTNET,
+  [ChainId.BRISE]: BUSD_BRISE,
+  [ChainId.CORE]: BUSD_CORE,
 }
 
 export const CAKE = {

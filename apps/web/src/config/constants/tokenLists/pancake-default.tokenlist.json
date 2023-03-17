@@ -33,14 +33,6 @@
       "chainId": 1116,
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/smartdev1990/Rice-Core-Asset/main/Assets/0x543F944F3fc1fA5fCF723e74Fa3434224109aDe1.png"
-    },
-    {
-      "name": "BUSD",
-      "symbol": "BUSD",
-      "address": "0xd0CE781960c6356A7175988751bfC8d7cd28EA60",
-      "chainId": 1116,
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/smartdev1990/Rice-Core-Asset/main/Assets/0xd0CE781960c6356A7175988751bfC8d7cd28EA60.png"
     }
   ]
 }

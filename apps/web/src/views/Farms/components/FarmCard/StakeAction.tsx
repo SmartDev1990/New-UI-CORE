@@ -271,7 +271,7 @@ const StakeAction: React.FC<React.PropsWithChildren<FarmCardActionsProps>> = ({
       max={stakedBalance}
       onConfirm={handleUnstake}
       tokenName={lpSymbol}
-      showCrossChainFarmWarning={chainId !== ChainId.CORE && chainId !== ChainId.BRISE}
+      showCrossChainFarmWarning={chainId !== ChainId.BRISE && chainId !== ChainId.CORE}
       decimals={18}
     />,
   )
