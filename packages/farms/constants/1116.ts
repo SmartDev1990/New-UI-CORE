@@ -29,6 +29,13 @@ const farms: SerializedFarmConfig[] = [
     token: coreTokens.xRice,
     quoteToken: coreTokens.wbnb,
   },
+  {
+    pid: 3,
+    lpSymbol: 'RICE-xRICE LP',
+    lpAddress: '0x646210B8adA924edEdC68F60E2c5F38276d3c239',
+    token: coreTokens.tw,
+    quoteToken: coreTokens.xRice,
+  },
 ].map((p) => ({ ...p, token: p.token.serialize, quoteToken: p.quoteToken.serialize }))
 
 export default farms
