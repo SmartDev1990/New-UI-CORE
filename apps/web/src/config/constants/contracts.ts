@@ -68,7 +68,7 @@ export default {
   },
   cakeFlexibleSideVault: {
     32520: '0xf0B02B3Eeb1Fe1057691f4267f62CfCeaa8A81D8',
-    1116: '',
+    1116: '0xC13eB35e11cB8e1c2B4867feC4603c71E18C2730',
   },
   predictionsBNB: {
     32520: '',
@@ -137,7 +137,7 @@ export default {
   },
   iCake: {
     32520: '',
-    1116: '',
+    1116: '0x052743669184B5Ab132bDF6B64af1615C11bFcBf',
   },
   nonBscVault: {
     32520: '',
