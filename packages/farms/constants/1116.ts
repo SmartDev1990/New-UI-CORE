@@ -32,7 +32,7 @@ const farms: SerializedFarmConfig[] = [
   {
     pid: 3,
     lpSymbol: 'RICE-xRICE LP',
-    lpAddress: '0x646210B8adA924edEdC68F60E2c5F38276d3c239',
+    lpAddress: '0x77C9d5De69Af9d7Ae550B5ad392B400c114692d3',
     token: coreTokens.tw,
     quoteToken: coreTokens.xRice,
   },
