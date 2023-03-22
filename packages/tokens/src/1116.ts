@@ -45,4 +45,12 @@ export const coreTokens = {
     'Tether USD',
     'https://Riceprotocol.org',
   ),
+  rlh: new ERC20Token(
+    ChainId.CORE,
+    '0x820DDF1a5bd1bFDC0C78768c7998Be44F7F9d257',
+    18,
+    'RLH',
+    'Rice Liquidity Helper',
+    'https://Riceprotocol.org',
+  ),
 }

@@ -27,6 +27,14 @@
       "logoURI": "https://raw.githubusercontent.com/smartdev1990/Rice-Core-Asset/main/Assets/0xA5d20d84deeEd3850a7538e993E3b2592bf997A0.png"
     },
     {
+      "name": "Rice Liquidity Helper",
+      "symbol": "RLH",
+      "address": "0x820DDF1a5bd1bFDC0C78768c7998Be44F7F9d257",
+      "chainId": 1116,
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/smartdev1990/Rice-Core-Asset/main/Assets/0x820DDF1a5bd1bFDC0C78768c7998Be44F7F9d257.png"
+    },
+    {
       "name": "xRice Token",
       "symbol": "xRICE",
       "address": "0x543F944F3fc1fA5fCF723e74Fa3434224109aDe1",

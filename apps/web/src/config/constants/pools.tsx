@@ -80,6 +80,18 @@ export const livePools: Pool.SerializedPoolConfig<SerializedWrappedToken>[] = [
     tokenPerBlock: '0.05',
     version: 2,
   },
+  {
+    sousId: 2,
+    stakingToken: coreTokens.rlh,
+    earningToken: coreTokens.tw,
+    contractAddress: {
+      32520: '',
+      1116: '0xda1756a9fb80d50ffdeedabcb74a123929f79356',
+    },
+    poolCategory: PoolCategory.CORE,
+    tokenPerBlock: '100',
+    isFinished: false,
+  },
   /*
   {
     sousId: 2,
