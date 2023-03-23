@@ -60,7 +60,7 @@ const AptosBanner = () => {
 
           <Button
             minHeight="48px"
-            onClick={() => window?.open('https://towerswap.finance/swap', '_blank', 'noopener noreferrer')}
+            onClick={() => window?.open('https://core.riceprorocol.org', '_blank', 'noopener noreferrer')}
           >
             <Text color="invertedContrast" bold fontSize="16px" mr="4px">
               👋 {t('Announcement')}
