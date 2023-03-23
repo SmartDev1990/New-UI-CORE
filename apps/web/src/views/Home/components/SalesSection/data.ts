@@ -52,7 +52,7 @@ export const bridgeSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Launchpad Integration'),
   bodyText: t(
-    'Riceswap is now officially integrated with dxsale. as the main partner for launchpad.',
+    'Riceswap is now officially integrated with Dxsale App as the main partner for Riceswap launchpad.',
   ),
   reverse: false,
   primaryButton: {
