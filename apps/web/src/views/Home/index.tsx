@@ -79,6 +79,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         index={2}
         hasCurvedDivider={false}
       >
+        <MultipleBanner />
         <Hero />
       </StyledHeroSection>
       <PageSection
@@ -101,6 +102,17 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         <SalesSection {...bridgeSectionData(t)} />
         {/* TODO: until we are enable fetch multi-chain farms */}
         {chainId === ChainId.BSC && <FarmsPoolsRow />}
+      </PageSection>
+      <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background={theme.colors.background}
+        containerProps={{
+          id: 'home-4',
+        }}
+        index={2}
+        hasCurvedDivider={false}
+      >
+        <SalesSection {...earnSectionData(t)} />
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}

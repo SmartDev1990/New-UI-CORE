@@ -50,24 +50,24 @@ export const bridgeSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('Earn extra income.'),
+  headingText: t('Launchpad Integration'),
   bodyText: t(
-    'Get additional income through the features that we have provided, We have prepared farming and staking features so that the tokens that you have work for you, everyone is free to choose where their tokens will be stored and we have prepared a place..',
+    'Riceswap is now officially integrated with dxsale. as the main partner for launchpad.',
   ),
   reverse: false,
   primaryButton: {
-    to: '/farms',
-    text: t('Explore'),
+    to: 'https://dx.app/dxsalecreate',
+    text: 'Launchpad',
     external: false,
   },
   secondaryButton: {
     to: 'https://riceswap.gitbook.io',
     text: '',
-    external: true,
+    external: false,
   },
   images: {
     path: '/images/home/earn/',
-    attributes: [{ src: 'ice', alt: t('Pie chart') }],
+    attributes: [{ src: 'dxsale', alt: t('Pie chart') }],
   },
 })
 

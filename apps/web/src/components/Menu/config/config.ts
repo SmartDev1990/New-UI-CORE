@@ -198,17 +198,12 @@ const config: (
       icon: MoreIcon,
       hideSubNav: true,
       items: [
-        // {
-        //   label: t('Stake'),
-        //   href: '/pools',
-        //   supportChainIds: SUPPORT_ONLY_BSC,
-        // },
         {
-          label: t('NFT'),
-          href: '/404',
+          label: t('Launchpad (DxSale)'),
+          href: 'https://dx.app/dxsalecreate',
         },
         {
-          label: t('LaunchPad'),
+          label: t('NFT'),
           href: '/404',
         },
         {

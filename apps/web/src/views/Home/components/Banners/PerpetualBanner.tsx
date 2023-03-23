@@ -42,7 +42,7 @@ const PerpetualBanner = () => {
   const { isDesktop, isMobile } = useMatchBreakpoints()
   const { isDark } = useTheme()
 
-  const perpetualUrl = useMemo(() => `https://towerswap.finance/farms`, [code, isDark])
+  const perpetualUrl = useMemo(() => `https://dx.app/dxsalecreate`, [code, isDark])
   const headerRef = useRef<HTMLDivElement>(null)
 
   useIsomorphicEffect(() => {
@@ -61,11 +61,11 @@ const PerpetualBanner = () => {
       <S.Inner>
         <S.LeftWrapper>
           <S.StyledSubheading ref={headerRef}>{t('Coming Soon')}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{t('Earn reward from Farming')}</Header>
+          <Header width={['160px', '160px', 'auto']}>{t('RLH PRESALE')}</Header>
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
-                {t('Stake Now')}
+                {t('Buy Now')}
               </Text>
               <ArrowForwardIcon color="invertedContrast" />
             </Button>

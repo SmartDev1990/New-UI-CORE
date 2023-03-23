@@ -26,7 +26,7 @@ export const core: Chain = {
   name: 'Core Mainnet',
   network: 'Core',
   rpcUrls: {
-    default: 'https://rpc.coredao.org/',
+    default: 'https://rpc-core.icecreamswap.com',
   },
   nativeCurrency: { name: 'CORE', symbol: 'CORE', decimals: 18 },
   blockExplorers: {
