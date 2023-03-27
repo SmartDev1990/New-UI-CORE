@@ -11,7 +11,7 @@ export default {
   },
   sousChef: {
     32520: '',
-    1116: '',
+    1116: '0xFDE38185a9D7C74c900eB18B26033fD77959ac75',
   },
   lotteryV2: {
     32520: '',
