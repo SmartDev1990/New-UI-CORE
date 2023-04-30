@@ -13,6 +13,7 @@ export const BOOST_WEIGHT = BigNumber.from('20000000000000')
 export const DURATION_FACTOR = BigNumber.from('31536000')
 
 export const vaultPoolConfig = {
+  /*
   [VaultKey.CakeVaultV1]: {
     name: <Trans>Auto RICE</Trans>,
     description: <Trans>Automatic restaking</Trans>,
@@ -23,6 +24,7 @@ export const vaultPoolConfig = {
       secondarySrc: '/images/tokens/autorenew.svg',
     },
   },
+  */
   [VaultKey.CakeVault]: {
     name: <Trans>Stake RICE</Trans>,
     description: <Trans>Stake, Earn – And more!</Trans>,
@@ -78,6 +80,18 @@ export const livePools: Pool.SerializedPoolConfig<SerializedWrappedToken>[] = [
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '0.05',
+    version: 2,
+  },
+  {
+    sousId: 3,
+    stakingToken: coreTokens.xRice,
+    earningToken: coreTokens.tw,
+    contractAddress: {
+      32520: '',
+      1116: '0xb4f9fe1d01e427ccaad9e5ce42168572979a8e29',
+    },
+    poolCategory: PoolCategory.CORE,
+    tokenPerBlock: '17',
     version: 2,
   },
   /*

@@ -22,8 +22,8 @@ const initialData = {
     stakingToken: coreTokens.tw.serialize,
     earningToken: coreTokens.tw.serialize,
     contractAddress: {
-      32520: '0xd964CB5A5cE6B7c8fA26796760F8A5AeE9bee1a1',
-      1116: '',
+      32520: '',
+      1116: '0xA5d20d84deeEd3850a7538e993E3b2592bf997A0',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '100',
