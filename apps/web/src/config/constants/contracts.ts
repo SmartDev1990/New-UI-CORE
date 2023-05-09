@@ -62,6 +62,7 @@ export default {
     32520: '',
     1116: '',
   },
+  /*
   cakeVault: {
     32520: '0x8EB8b40361730a6cEC17d4CF8da1e81cD351a0ee',
     1116: '0xaFE21f6b4F575fA82E319adBF567b5e209b53dbA',
@@ -70,7 +71,7 @@ export default {
     32520: '0xf0B02B3Eeb1Fe1057691f4267f62CfCeaa8A81D8',
     1116: '0xC13eB35e11cB8e1c2B4867feC4603c71E18C2730',
   },
-  /*
+  */
   cakeVault: {
     32520: '0x8EB8b40361730a6cEC17d4CF8da1e81cD351a0ee',
     1116: '',
@@ -79,7 +80,6 @@ export default {
     32520: '0xf0B02B3Eeb1Fe1057691f4267f62CfCeaa8A81D8',
     1116: '',
   },
-  */
   predictionsBNB: {
     32520: '',
     1116: '',
