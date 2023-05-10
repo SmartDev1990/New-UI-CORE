@@ -82,6 +82,7 @@ export const livePools: Pool.SerializedPoolConfig<SerializedWrappedToken>[] = [
     tokenPerBlock: '0.05',
     version: 2,
   },
+  /*
   {
     sousId: 3,
     stakingToken: coreTokens.xRice,
